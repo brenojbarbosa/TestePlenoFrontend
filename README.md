@@ -1,12 +1,12 @@
-# React + Vite
+- O arquivo apresentou alguns problemas, por isso optei por criar outro e subir aqui, peço deculpas pelo ocorrido.
+O projeto foi feito em React. Usar o npm install e depois usar o npm run dev para rodar o projeto.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades
+Tela de Login: Usuários podem fazer login com email e senha. O login é validado com as credenciais armazenadas no localStorage.
 
-Currently, two official plugins are available:
+Tela de Cadastro: Usuários podem criar uma nova conta, preenchendo um formulário com nome, email, senha, e outras informações. O sucesso ou erro do cadastro é indicado através de modais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Área Restrita: Após login bem-sucedido, o usuário é redirecionado para uma tela personalizada, onde pode ver suas informações cadastradas e realizar logout.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Modais Personalizados: Modais para exibir mensagens de sucesso ou erro, com animações e fechamentos automáticos.
+Responsividade mobile.
