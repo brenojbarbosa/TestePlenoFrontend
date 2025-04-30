@@ -70,6 +70,7 @@ export const Input = styled.input`
   box-sizing: border-box;
   background-color: #343b41;
   border: 2px solid white;
+  color: #f8f9fa;
   &::placeholder {
     font-weight: 400;
     font-size: 16.24px;
