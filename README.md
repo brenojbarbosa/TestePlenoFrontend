@@ -10,3 +10,15 @@ Tela de Cadastro: Usuários podem criar uma nova conta, preenchendo um formulár
 
 Modais Personalizados: Modais para exibir mensagens de sucesso ou erro, com animações e fechamentos automáticos.
 Responsividade mobile.
+
+
+O que foi usado- 
+React - Biblioteca para construção da interface de usuário.
+
+Vite - Bundler rápido para projetos React.
+
+React Router DOM - Para navegação entre as páginas.
+
+Styled-components - Para a estilização dos componentes, incluindo os modais e formulários.
+
+localStorage - Para persistir os dados do usuário localmente.
